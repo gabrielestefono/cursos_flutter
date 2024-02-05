@@ -10,8 +10,9 @@ class PerguntaApp extends StatelessWidget{
         return MaterialApp(
             home: Scaffold(
                 appBar: AppBar(
-                    title: Text('Olá flutter'),
+                    title: Text('Perguntas'),
                 ),
+                body: Text('Olá, flutter!'),
             ),
         );
     }
